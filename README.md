@@ -1,40 +1,26 @@
-# Vite + Solid + Tailwind CSS starter
+# Solid + Typescript + TailwindCSS
+Basic boilerplate for solid js with routing, authentication and aliases for common folders.
 
-Inspired by [posva's](https://github.com/posva) [vite-tailwind-starter](https://github.com/posva/vite-tailwind-starter)
-
-Note if you have access to [Tailwind UI](https://tailwindui.com), you can follow the following steps to add it:
-
-1. Install `@tailwindcss/ui`:
-
-```sh
-yarn add @tailwindcss/ui
-```
-
-2. Add the plugin in `tailwind.config.js` without changing anything else:
-
-```js
-// tailwind.config.js
-module.exports = {
-  // ...
-  // rest of the config
-  plugins: [require('@tailwindcss/ui')],
-}
-```
-
-## Installation
-
-```sh
+# Setup
+```bash
+npx degit beastOP/solidjs-tailwind-typescript-auth
 yarn
 ```
+# File Structure
+```bash
+src/
+├── App.tsx
+├── assets
+│   └── favicon.ico
+├── components
+├── index.css
+├── index.tsx
+├── lib
+│   ├── Auth.tsx
+│   └── utils.tsx
+└── views
+    ├── Home.tsx
+    └── NotFound.tsx
 
-## Development
-
-```sh
-yarn dev
-```
-
-## Build
-
-```sh
-yarn build
+4 directories, 8 files
 ```
