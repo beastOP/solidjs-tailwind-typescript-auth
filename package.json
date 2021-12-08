@@ -1,0 +1,22 @@
+{
+  "name": "solidjs-tailwind-typescript-auth",
+  "version": "1.0.0",
+  "description": "Solidjs boilerplate with typescript, tailwind and basic localstorage based authentication",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.3.8",
+    "vite-plugin-solid": "^2.0.0"
+  },
+  "dependencies": {
+    "solid-app-router": "^0.0.50",
+    "solid-js": "^1.0.0"
+  }
+}
