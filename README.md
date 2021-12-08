@@ -13,6 +13,7 @@ src/
 ├── assets
 │   └── favicon.ico
 ├── components
+│   └── Counter.tsx
 ├── index.css
 ├── index.tsx
 ├── lib
@@ -22,5 +23,5 @@ src/
     ├── Home.tsx
     └── NotFound.tsx
 
-4 directories, 8 files
+4 directories, 9 files
 ```
